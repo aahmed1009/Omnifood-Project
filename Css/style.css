@@ -65,7 +65,7 @@ html {
 }
 body {
   color: #555;
-  font-family: sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 1;
 }
@@ -83,7 +83,7 @@ body {
 }
 .heading-primary {
   font-size: 5.2rem;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.05;
   letter-spacing: -0.5px;
   margin-bottom: 3.2rem;
@@ -102,6 +102,7 @@ body {
   text-decoration: none;
   border-radius: 10px;
   font-size: 2rem;
+  font-weight: 400;
   padding: 1.6rem 3.2rem;
   transition: background-color 0.3s;
 }
@@ -130,4 +131,34 @@ body {
 }
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+.delivered-customers-box {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 8rem;
+}
+.delivered-imgs {
+  display: flex;
+}
+.delivered-imgs img {
+  width: 4.2rem;
+  height: 4.2rem;
+  border-radius: 50%;
+  margin-right: -1.05rem;
+  border: 3px solid #fdf2e9;
+}
+.delivered-imgs img:last-child {
+  margin: 0;
+}
+.delivered-customers-box p {
+  font-size: 2rem;
+
+  font-weight: 700;
+
+  color: #333;
+}
+.delivered-customers-box span {
+  color: #cf711f;
+  font-weight: 700;
 }
