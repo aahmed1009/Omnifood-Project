@@ -166,7 +166,6 @@ body {
   align-items: center;
   gap: 9.6rem;
 }
-
 .hero-description {
   font-size: 2rem;
   line-height: 1.6;
@@ -277,23 +276,18 @@ body {
 .grid:not(:last-child) {
   margin-bottom: 9.6rem;
 }
-
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
-
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
 }
-
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
-
 .grid--5-cols {
   grid-template-columns: repeat(5, 1fr);
 }
-
 .grid--center-v {
   align-items: center;
 }
@@ -543,32 +537,27 @@ strong {
 .pricing-section {
   padding: 9.6rem 0;
 }
-
 .princing-plan {
   border-radius: 11px;
 
   width: 75%;
 }
-
 .princing-plan--starter {
   justify-self: end;
   border: 2px solid #fdf2e9;
   padding: 4.6rem;
 }
-
 .princing-plan--complete {
   background-color: #fdf2e9;
   padding: 4.8rem;
   position: relative;
   overflow: hidden;
 }
-
 .princing-plan--complete::after {
   content: "Best value";
   position: absolute;
   top: 6%;
   right: -18%;
-
   text-transform: uppercase;
   font-size: 1.4rem;
   font-weight: 700;
@@ -577,12 +566,10 @@ strong {
   padding: 0.8rem 8rem;
   transform: rotate(45deg);
 }
-
 .plan-header {
   text-align: center;
   margin-bottom: 4.8rem;
 }
-
 .plan-name {
   color: #cf711f;
   font-weight: 600;
@@ -591,37 +578,31 @@ strong {
   letter-spacing: 0.75;
   margin-bottom: 3.2rem;
 }
-
 .plan-price {
   font-size: 6.2rem;
   font-weight: 600;
   color: #333;
   margin-bottom: 1.6rem;
 }
-
 .plan-price span {
   font-size: 3rem;
   font-weight: 500;
   margin-right: 0.8rem;
 }
-
 .plan-text {
   font-size: 1.6rem;
   line-height: 1.6;
   color: #6f6f6f;
 }
-
 .plan-sing-up {
   text-align: center;
   margin-top: 4.8rem;
 }
-
 .plan-details {
   font-size: 1.6rem;
   line-height: 1.6;
   text-align: center;
 }
-
 .feature-icon {
   color: #e67e22;
   height: 3.2rem;
@@ -631,14 +612,12 @@ strong {
   padding: 1.6rem;
   border-radius: 50%;
 }
-
 .feature-title {
   font-size: 2.4rem;
   color: #333;
   font-weight: 700;
   margin-bottom: 1.6rem;
 }
-
 .feature-text {
   font-size: 1.8rem;
   line-height: 1.8;
@@ -654,10 +633,8 @@ strong {
   grid-template-columns:
     2fr
     1fr;
-
   border-radius: 11px;
   box-shadow: 0 2.4rem 8rem rgba(0, 0, 0, 0.15);
-
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
   overflow: hidden;
 }
@@ -695,7 +672,6 @@ strong {
   font-weight: 500;
   margin-bottom: 1.2rem;
 }
-
 .cta-form input,
 .cta-form select {
   width: 100%;
@@ -708,7 +684,6 @@ strong {
   border-radius: 9px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
-
 .cta-form input::placeholder {
   color: #aaa;
 }
@@ -729,4 +704,66 @@ strong {
 .cta *:focus {
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+
+/* TODO:footer section  */
+
+.footer {
+  padding: 9.6rem 0;
+}
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+.logo-column {
+  display: flex;
+  flex-direction: column;
+}
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #767676;
+  margin-top: auto;
+}
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+.contact-us {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+.address {
+  margin-bottom: 2.4rem;
+}
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
 }
